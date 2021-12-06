@@ -1,0 +1,84 @@
+﻿/*//////////////////////////////////////////////////////
+ORGINAL CSS FOR IMAGE SECTIONS
+///////////////////////////////////////////////////////
+*/
+.user_img {
+    border: 1px solid #ededed;
+    border-radius: 3px;
+}
+
+.user_img img {
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+}
+
+.user_img .upload_icon {
+    background-color: #bbb8b8;
+    opacity: 0.5;
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    transform: scaleY(0);
+    transition: 0.3s;
+    transform-origin: bottom;
+    margin-left: -14px;
+}
+
+.user_img:hover .upload_icon {
+    transform: scaleY(1);
+}
+
+.user_img .upload_icon img {
+    height: 30px;
+    width: 30px;
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    right: 50px;
+}
+
+.user_img .cross {
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: #5b626b;
+    transform: scale(0);
+    transform-origin: top;
+    transition: transform ease 0.5s;
+}
+
+    .user_img .cross .glyphicon-remove {
+        opacity: 0.5;
+    }
+
+    .user_img .cross:hover .glyphicon-remove {
+        color: #808080;
+    }
+
+.user_img:hover .cross {
+    transform: scale(1);
+}
+
+
+
+.upload-img {
+    position: relative;
+}
+
+.user_img:hover .cross {
+    transform: scaleY(1);
+}
+
+.upload-img-text {
+    text-align: center;
+    font-size: 135%;
+    padding-top: 6px;
+    font-weight: 700;
+    padding-left: 0;
+    color: black;
+}
